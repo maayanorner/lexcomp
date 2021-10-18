@@ -3,7 +3,7 @@
 mkdir -p pretrained_models;
 
 echo "Downloading fastText...";
-wget https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki-news-300d-1M-subword.vec.zip;
+wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M-subword.vec.zip;
 unzip wiki-news-300d-1M-subword.vec.zip;
 
 # Remove the first line indicating the size
